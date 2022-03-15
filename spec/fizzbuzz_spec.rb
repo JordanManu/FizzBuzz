@@ -11,7 +11,7 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(2)).to eq 2
   end
   it 'returns "fizzbuzz" if number is divisible by both 3 and 5' do
-    expect(fizzbuzz(15)).to eq "Fizzbuzz"
+    expect(fizzbuzz(15)).to eq "FizzBuzz"
   end
   it 'returns "fizz" when number is a multiple of 3' do
     expect(fizzbuzz(6)).to eq 'Fizz'
@@ -23,6 +23,11 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(20)).to eq "Buzz"
     expect(fizzbuzz(40)).to eq "Buzz"
   end
+  it 'returns "FizzBuzz" when number is mutiple of bot 3 and 5' do
+    expect(fizzbuzz(30)).to eq "FizzBuzz"
+    expect(fizzbuzz(60)).to eq "FizzBuzz"
+    expect(fizzbuzz(90)).to eq "FizzBuzz"
+end
 end
 
 
