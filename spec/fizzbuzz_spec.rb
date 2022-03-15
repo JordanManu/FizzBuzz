@@ -18,6 +18,11 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(9)).to eq 'Fizz'
     expect(fizzbuzz(12)).to eq 'Fizz'
   end
+  it 'returns "Buzz" when number is a multiple of 5' do
+    expect(fizzbuzz(10)).to eq "Buzz"
+    expect(fizzbuzz(20)).to eq "Buzz"
+    expect(fizzbuzz(40)).to eq "Buzz"
+  end
 end
 
 
