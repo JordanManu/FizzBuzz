@@ -1,7 +1,10 @@
 def fizzbuzz(number)
   if number == 3
     'fizz'
-  else 
+  elsif number == 5 
      'buzz'
-  end
+  else
+      number 
  end
+end
+
