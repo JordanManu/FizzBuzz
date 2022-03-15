@@ -1,3 +1,7 @@
 def fizzbuzz(number)
-  'fizz'
-end
+  if number == 3
+    'fizz'
+  else 
+     'buzz'
+  end
+ end
